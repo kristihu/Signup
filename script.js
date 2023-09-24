@@ -3,9 +3,9 @@ function updateImageSource() {
   const screenWidth = window.innerWidth;
 
   if (screenWidth >= 800) {
-    imageElement.src = '/assets/images/illustration-sign-up-desktop.svg';
+    imageElement.src = './assets/images/illustration-sign-up-desktop.svg';
   } else {
-    imageElement.src = '/assets/images/illustration-sign-up-mobile.svg';
+    imageElement.src = './assets/images/illustration-sign-up-mobile.svg';
   }
 }
 
